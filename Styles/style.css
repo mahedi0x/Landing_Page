@@ -2,7 +2,8 @@ body {
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
   max-width: 1420px;
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
+  background-color: #fdfdfd;
   margin: auto;
 }
 
@@ -116,4 +117,85 @@ body {
     font-size: 20px;
     color: #797979;
     font-weight: 600;
+    margin: 0;
 }
+
+.users-say{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.reviews-container {
+
+    max-width: 1150px;
+    margin: 30px auto;
+    padding: 30px 20px ;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .review-card {
+   
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px 30px;
+    width: 360px;
+    height: 200px;
+    box-shadow: 2px  3px rgb(92, 92, 255);
+
+    
+    border: 1px solid #eee;
+  }
+  .review-card:hover{
+    background: #e6e5fa9a;
+    /* background-color: #a4c7e9c1; */
+    transition: background-color 0.5s ease;
+  }
+
+  .stars {
+    color: #f7c948;
+    font-size: 18px;
+    /* margin: 10px; */
+  }
+
+  .review-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .review-text {
+    font-size: 17px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+  }
+
+  .reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .reviewer-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reviewer-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 10px;
+  }
+
+  .review-date {
+    font-size: 16px;
+    color: #B3B3B3;
+  }
