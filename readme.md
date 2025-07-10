@@ -1,4 +1,4 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
+<!-- ## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
 
 ### 📅 Deadline For 60 marks: 11th July, 2025 (11:59 pm ⏱️)
 
@@ -128,4 +128,4 @@
 - 📂 **GitHub Repository:**
 - 🌐 **Live Link:**
 
-# Let's Code and Achieve your Dream 🎯
+# Let's Code and Achieve your Dream 🎯 -->
