@@ -29,6 +29,8 @@ body {
   font-weight: 800;
   color: #4e47ff;
   margin: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .btn {
@@ -48,8 +50,6 @@ body {
 }
 .logo:hover {
   color: #278f5b;
-  cursor: pointer;
-  transition: 0.3s ease;
 }
 
 .banner-text {
@@ -62,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 140px;
+    margin: 80px 135px;
     height: 340px;
     padding-top: 20px;
 }
@@ -84,4 +84,36 @@ body {
 
 .action-right img{
     border-radius: 48px;
+}
+
+.productive-container{
+    max-width: 1140px;
+    margin: 70px auto;
+    padding:30px 20px ;
+    text-align: center;
+    background: #4d47ff2c;    
+    border-radius: 20px;
+
+}
+.productive-text{
+    font-size: 35px;
+}
+
+.productive-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.productive-info h2{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.productive-info p{
+    font-size: 20px;
+    color: #797979;
+    font-weight: 600;
 }
