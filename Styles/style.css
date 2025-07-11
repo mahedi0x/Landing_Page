@@ -3,7 +3,8 @@ body {
   font-family: "Raleway", sans-serif;
   max-width: 1420px;
   /* background: #FFFFFF; */
-  background-color: #fdfdfd;
+  /* background-color: #fdfdfd; */
+  background-color: #F5F8FF;
   margin: auto;
 }
 
@@ -198,4 +199,35 @@ body {
   .review-date {
     font-size: 16px;
     color: #B3B3B3;
+  }
+
+  .focus-container{
+    width: 1140px;
+    height: 700px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    
+
+  }
+
+  .text-container{
+    text-align: center;
+    /* background: #c8bcbc; */
+    padding: 20px;
+  }
+  .text-container h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .text-container p{
+    font-size: 16px
+  }
+  .web-img-container img{
+    border-radius: 30px;
+    margin: 10px auto;
   }
