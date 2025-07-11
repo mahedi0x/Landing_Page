@@ -29,6 +29,7 @@ body {
   font-size: 25px;
   font-weight: 800;
   color: #4e47ff;
+  font-family: "Inter", sans-serif;
   margin: 0;
   cursor: pointer;
   transition: color 0.3s ease;
